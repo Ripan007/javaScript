@@ -3,7 +3,7 @@
 
 
 
-*contain javaScript Basic to Advance concept covered* 
+*Contain javaScript Basic to Advance concept covered* 
 
 |*#* | *Item*     | *Description*             |
 | :-------- | :------- | :------------------------- |
