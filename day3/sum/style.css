@@ -1,0 +1,25 @@
+body{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ height:100vh;
+ overflow: hidden;
+background:rgba(128, 128, 128, 0.493);
+
+}
+
+input{
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+button{
+    margin-bottom: 5px;
+        border-radius: 5px;
+    border: none;
+       padding: 10px;
+}
