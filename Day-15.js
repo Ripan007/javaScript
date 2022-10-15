@@ -121,25 +121,26 @@
 // nesting callBack means callback hell
 const getRollNo = () => {
   setTimeout(() => {
-    console.log("print this line");
-    let roll_no = [1, 2, 3, 4, 5];
-    console.log(roll_no);
+    console.log('print this line')
+    let roll_no = [1, 2, 3, 4, 5]
+    console.log(roll_no)
     setTimeout(
-      (rollNo) => {
+      rollNo => {
         const bio_data = {
-          name: "raj",
-          age: 24,
-        };
+          name: 'raj',
+          age: 24
+        }
         console.log(
           ` rollNo is ${rollNo} name is ${bio_data.name} and age is ${bio_data.age}`
-        );
+        )
       },
       2000,
       roll_no[2]
-    );
-  }, 2000);
-};
-getRollNo();
+    )
+  }, 2000)
+}
+getRollNo()
+
 // promises
 // promises are used to handle asynchronous operations in javaScript.they are easy to manage when dealing with multiple asynchronous operations
 // operations where callbacks can create callback hell  leading to unmanageable code
