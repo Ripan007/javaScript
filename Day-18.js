@@ -206,9 +206,62 @@
 // console.log(like);
 // console.log(youtube.subs);
 
+// return a function
 
+// function a() {
+//     return function b() {
+//         console.log("hi");
+//     }
+// }
 
+// a()();
 
+// const c = a();
+// c();
+
+// const greet = () => {
+//     return "hi";
+// }
+
+// const greeting = (hi, name) => {
+//     console.log(hi() + name);
+// }
+// greeting(greet, "raj")
+
+// function a() {
+//     setTimeout(() => {
+//         console.log("first program");
+//     }, 3000)
+
+// }
+
+// function b() {
+//     console.log("second program");
+// }
+
+// function a() {
+//     setTimeout(() => {
+//         console.log("first program");
+//         b();
+//     }, 3000)
+
+// }
+
+// function b() {
+//     console.log("second program");
+// }
+// a();
+
+// function receiver(caller, remember) {
+//     console.log(`you are busy when i called you it's ${caller}`);
+//     remember();
+// }
+
+// function remember() {
+//     console.log("called  me when you  are  free");
+// }
+
+// receiver("raj", remember)
 
 
 
