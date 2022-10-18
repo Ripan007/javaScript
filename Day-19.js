@@ -69,3 +69,74 @@
 
 // interview('raj')('ui');
 
+// callBack //
+
+// const user = {
+//     name: 'raj',
+//     age: 23,
+//     job: function (hobby) {
+//         console.log(`hi i am ${this.name} my age is ${this.age} my hobby is ${hobby}`);
+//     }
+// }
+
+// user.job();
+// const user1 = {
+//     name: 'mohit',
+//     age: 26
+// }
+
+// copy the property of user using call
+
+// user.job.call(user1, "reading");
+
+// the call method take arguments as am array
+
+// const user = {
+//     name: 'raj',
+//     age: 23,
+//     job: function (hobby) {
+//         console.log(`hi i am ${this.name} my age is ${this.age} my hobby is ${hobby}`);
+//     }
+// }
+
+// user.job();
+// const user1 = {
+//     name: 'mohit',
+//     age: 26
+// }
+
+// user.job.apply(user1, ["reading"]);
+
+// let max = Math.max.apply(null, [1, 2, 3, 90]);
+// console.log(max);
+
+// bind
+
+// const first = {
+//     name: "raj",
+//     age: 23
+// }
+
+// const second = {
+//     name: "mohit",
+//     age: 24
+// }
+
+// const third = {
+//     name: "komal",
+//     age: 19
+// }
+
+// function profile(attitude) {
+//     console.log(`i am ${this.name} and my age is ${this.age} my attitude is ${attitude}`);
+// }
+
+
+// const user = profile.bind(first);
+// user('cool');
+
+// const user1 = profile.bind(second);
+// user1();
+// const user2 = profile.bind(third);
+// user2();
+
