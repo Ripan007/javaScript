@@ -43,3 +43,42 @@
 // }
 
 
+//  synchronous vs asynchronous //
+
+//  synchronous way
+// function b() {
+//     console.log("function b start");
+// }
+
+// function a() {
+//     console.log("function a start");
+//     b();
+//     console.log("function a end");
+// }
+
+// a();
+
+
+// asynchronous way
+
+// function b() {
+//     setTimeout(function () {
+//         console.log("b start");
+//     }, 2000)
+// }
+
+// function a() {
+//     console.log("a start");
+//     b();
+//     console.log("a end");
+// }
+
+// a();
+ 
+// event loop //
+
+
+
+
+
+
