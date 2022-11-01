@@ -127,7 +127,85 @@
 
 
 
+// function bioData() {
+//     var myFirstName = "ripan";
+//     console.log(myFirstName);
+//     if (true) {
+//         let myLastName = "mondal";
+//         console.log('inner' + myLastName);
+//         console.log('inner' + myFirstName);
 
+//     }
+
+//     console.log('innerOuter' + myLastName);
+// }
+
+// bioData();
+
+var name = ["a", "b", "c", "d"];
+
+// for (let element in name) {
+//     console.log(element);
+// }
+
+// for (let element of name) {
+//     console.log(element);
+// }
+
+// name.forEach(function (element, index, array) {
+//     console.log(element);
+// })
+
+// const heading = document.querySelector("#heading");
+// const button = document.querySelector("button");
+
+// function changeText() {
+//     heading.innerHTML = "change";
+// }
+
+// button.addEventListener("click", changeText)
+
+// inputs events
+
+
+
+
+// function render() {
+//     const input = document.querySelector("#ice").value;
+//     const select = document.querySelector("#iceCreams").value;
+// console.log(`${input} and ${select}`);
+//     const result = document.querySelector("#result");
+//     result.value = `${input} ${select}`
+// }
+
+
+
+// const iceCreams = document.querySelector("#iceCreams");
+// iceCreams.addEventListener('change', () => {
+//     const iceCreams = document.querySelector("#iceCreams").value;
+//     const input = document.querySelector("#ice").value;
+//     const result = document.querySelector("#result");
+//     result.value = `${input} ${iceCreams}`
+// })
+
+// const show = document.querySelector("#showName");
+// const button = document.querySelector("#btn");
+
+// function showName() {
+//     setTimeout(() => {
+//         show.innerHTML = "ripan";
+//     }, 2000)
+// }
+
+// button.addEventListener('click', showName);
+
+
+// const show = document.querySelector("#showName");
+// const button = document.querySelector("#btn");
+
+// function showName() {
+//     show.innerHTML = "ripan";
+// }
 
 
 
