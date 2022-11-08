@@ -165,3 +165,20 @@
 // person1(6);
 
 
+let first = document.querySelector("#first");
+let second = document.querySelector("#second");
+let button = document.querySelector("button");
+let firstName = document.querySelector(".firstName");
+let secondName = document.querySelector(".secondName");
+
+
+function display() {
+    first.value;
+    second.value;
+    firstName = first;
+    secondName = second;
+
+
+}
+
+button.addEventListener("click", display)
