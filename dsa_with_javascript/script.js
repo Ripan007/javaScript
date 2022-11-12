@@ -1,24 +1,22 @@
-let data = [10, 20, 30, 40, 50, 60];
-/*
-for (let i = 0; i < data.length; i++) {
-    // document.write(data[i])
-    // document.write(`Array ${i} is ${data[i]} <br/>`)
+// Array traversing and accessing data structures //
 
-} */
+let data = [10, 20, 30, 40, 50];
+// document.write(data[0])
+// for (let i = 0; i < data.length; i++) {
+//     document.write(`Array ${i} contain ${data[i]} <br/>`)
+// }
 
-// let x = 1;
-// document.write(data[4])
+// let x = 3;
 // document.write(data[x])
 
-function getElement() {
-    // let el = document.querySelector("#element").value;
-    // alert(data[el])
 
-    let el = document.querySelector("#element");
-    if (el < data.length) {
-        alert(data[el])
-    } else {
-        alert('enter valid number')
-    }
+// function getElement() {
+//     let el = document.querySelector("#element").value;
+//     if (el < data.length) {
+//         alert(`print the index value ${data[el]}`)
+//     } else {
+//         alert(`print valid value`)
+//     }
+// }
 
-}
+// insert element in array //
