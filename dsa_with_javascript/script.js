@@ -85,16 +85,33 @@
 // }
 
 
-let data = [10, 20, 30, 40, 50];
-let target = 10;
-let index = undefined;
+// let data = [10, 20, 30, 40, 50];
+// let target = 10;
+// let index = undefined;
 
-for (let i = 0; i < data.length; i++) {
-    if (data[i] === target) {
-        index = i;
-        break;
-    }
-}
+// for (let i = 0; i < data.length; i++) {
+//     if (data[i] === target) {
+//         index = i;
+//         break;
+//     }
+// }
+// console.warn(index);
+// data.splice(2, 1);
+// console.log(data);
+
+// function search() {
+//     let data = [10, 20, 30, 40, 50];
+//     let target = document.querySelector("#target").value;
+//     let index = undefined;
+//     for (let i = 0; i < data.length; i++) {
+//         if (data[i] == target) {
+//             index = i;
+//             break;
+//         }
+//     }
+//     console.warn(index);
+// }
 
 
-console.warn(index);
+
+
