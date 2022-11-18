@@ -1,0 +1,10 @@
+/* Create a div with class='text- here' id='text- container' containing some example text inside it.
+
+Create a textbox with id colorbox to change the color of the above text according to value entered in the textbox on a button click.
+
+Create a range input type for changing the size of the text. Default should be 55. The sizes should vary from 10 to 100. Create 3 buttons to change the text to bold italics underline and vice versa.
+
+Make a dropdown list containing the basic 5 font families and upon selection the font of the above text should change accordingly.
+
+Create another button which gives the above set css properties of the text in a way which can be straightaway copied to make any other text appear like the one in the div text- container.
+NOTE :The buttons should have class stylebt. */

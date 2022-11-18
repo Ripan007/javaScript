@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.image{
+    border:2px solid red;
+    display:inline-block;
+    width: 40%;
+    float:left;
+}
+
+#zoom-in{
+    border:2px solid green;
+}
+
+figure{
+    overflow: hidden;
+    margin:0 10px;
+}
+
+image img{
+    width: 100%;
+    display: block;
+    height:auto;
+}
